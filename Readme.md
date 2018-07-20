@@ -2,6 +2,10 @@
 
 Library for exposing OpenAPI 3.0.1 contracts for REST API services with .NET Core.
 
+## Usage
+
+See sample usage at the [sample project](https://github.com/metadevpro/alba-netcore).
+
 ## Nuget
 
 Metadev.Oas3
