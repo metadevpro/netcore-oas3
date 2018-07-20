@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Metadev.Oas3</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+    <AssemblyName>oas3</AssemblyName>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Company>Metadev</Company>
+    <PackageIconUrl>http://github.com/metadevpro/netcore-oas3/oas3/Resources/oas3-logo.png</PackageIconUrl>
+    <PackageProjectUrl>http://github.com/metadevpro/netcore-oas3</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/Apache-2.0</PackageLicenseUrl>
+    <Description>OpenAPI 3.0.x contracts for dotNet Core Rest APIs.</Description>
+    <Copyright>Metadev 2018</Copyright>
+    <RepositoryUrl>http://github.com/metadevpro/netcore-oas3</RepositoryUrl>
+    <PackageTags>openapi rest api</PackageTags>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <PackageId>Metadev.Oas3</PackageId>
+    <Authors>Pedro J. Molina, Metadev</Authors>
+    <Product>Metadev.Oas3</Product>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dsl\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Readme.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
